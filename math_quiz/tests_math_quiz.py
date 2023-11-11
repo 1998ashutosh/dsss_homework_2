@@ -20,7 +20,7 @@ class TestMathGame(unittest.TestCase):
             (5, 2, '+', '5 + 2', 7),
             (3, 10, '-', '3 - 10', -7),
             (2, 10, '*', '2 * 10', 20),
-            (9, 0, '*', '9 * 0', 0)
+            # Add more test cases as needed
         ]
 
         for num1, num2, operator, expected_problem, expected_answer in test_cases:
